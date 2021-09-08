@@ -1,0 +1,39 @@
+
+/***********************
+* COLORS
+************************/
+$c-soft-red:hsl(7,99%,70%);
+$c-yellow:hsl(51,100%,49%);
+$c-dark-desaturated-cyan:hsl(167,40%, 24%);
+$c-dark-blue:hsl(198,62%,26%);
+$c-dark-moderate-cyan:hsl(168,34%,41%);
+$c-dark-desaturated-blue:hsl(212,27%,19%);
+$c-dark-grayish-blue:hsl(213,9%,39%);
+$c-grayish-blue:hsl(210,4%,67%);
+$c-white:hsl(0,0%,100%);
+$c-dodgerblue:hsl(200, 100%, 62%);
+$c-banana-mania:hsl(48, 92%, 86%);
+$c-monte-carlo:hsl(167, 44%, 70%);
+
+/***********************
+* TYPOGRAPHY
+************************/
+$ff-barlow:'Barlow', sans-serif;
+$ff-fraunces:'Fraunces', serif;
+
+$fw-semi-bold:600;
+$fw-bold:700;
+$fw-black:900;
+
+/***********************
+* DEVICES
+************************/
+$d-tablet:768px;
+$d-laptop:1020px;
+$d-laptop-l:1440px;
+
+/***********************
+* COLUMN
+************************/
+$col-max-width:400px;
+$col-padding:4rem 2rem;

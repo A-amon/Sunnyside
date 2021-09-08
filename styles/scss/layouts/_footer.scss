@@ -1,0 +1,48 @@
+
+.footer{
+	background-color:$c-monte-carlo;
+	&__logo{
+		display: block;
+		text-align: center;
+		path{
+			fill:$c-dark-desaturated-cyan;
+		}
+	}
+
+	li{
+		list-style: none;
+	}
+
+	&__items, &__socials{
+		display: flex;
+		align-items: center;
+	}
+
+	&__items{
+		justify-content: space-between;
+		margin:2rem auto 4rem auto;
+		max-width: 400px;
+	}
+
+	&__item{
+		a{
+			text-decoration: none;
+			color:$c-dark-moderate-cyan;
+			font-size: 1.3rem;
+			&:hover{
+				color:$c-white;
+			}
+		}
+	}
+
+	&__socials{
+		justify-content: center;
+	}
+
+	&__social:not(:last-child){
+		margin-right:2rem;
+		&:hover path{
+			fill:$c-white;
+		}
+	}
+}

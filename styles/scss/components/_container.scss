@@ -1,0 +1,17 @@
+.container{
+	padding:2rem;
+	margin: auto;
+	
+	@include tablet-query{
+		max-width: $d-tablet;
+	}
+
+	@include laptop-query{
+		padding:2rem 5rem;
+		max-width: $d-laptop;
+	}
+
+	@include laptop-l-query{
+		max-width: $d-laptop-l;
+	}
+}

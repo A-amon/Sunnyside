@@ -1,0 +1,44 @@
+
+.what{
+	display: flex;
+	flex-wrap:wrap;
+	text-align: center;
+	font-size: 1.2rem;
+
+	&__image, img{
+		width: 100%;
+		height: 100%;
+	}
+
+	&-wrapper{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	&-col{
+		position: relative;
+		color:$c-dark-desaturated-cyan;
+
+		&__text{
+			position: absolute;
+			left:0;
+			right: 0;
+			bottom:0;
+			padding:$col-padding;
+			max-width: $col-max-width;
+			margin:auto;
+		}
+
+		&__title{
+			font-size: 2rem;
+			margin-bottom: 1rem;
+		}
+	}
+
+	@include tablet-query{
+		&-col{
+			width:50%;
+		}
+	}
+}

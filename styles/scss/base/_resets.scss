@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: $ff-barlow;
+	&.no-scroll{
+		overflow: hidden;
+	}
+}
+
+h1, h2, h3{
+	font-family: $ff-fraunces;
+	font-weight: $fw-black;
+}
+
+p{
+	line-height: 1.5;
+}
+
+button{
+	cursor: pointer;
+}
+
+.sr-only{
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	display: block;
+}
