@@ -34,7 +34,7 @@
 	}
 
 	@include tablet-query{
-		background-image: url('../../../assets/images/desktop/image-header.jpg');
+		background-image: url('../../assets/images/desktop/image-header.jpg');
 
 		&__title{
 			font-size: 4rem;

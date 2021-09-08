@@ -252,7 +252,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url("../../../assets/images/desktop/image-header.jpg");
+    background-image: url("../../assets/images/desktop/image-header.jpg");
   }
   .hero__title {
     font-size: 4rem;
