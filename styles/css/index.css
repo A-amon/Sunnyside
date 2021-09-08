@@ -209,7 +209,7 @@ button {
 
 .hero {
   height: 600px;
-  background-image: url("../../../assets/images/mobile/image-header.jpg");
+  background-image: url("../../assets/images/mobile/image-header.jpg");
   background-size: cover;
   background-position: center;
   display: -webkit-box;
@@ -230,7 +230,7 @@ button {
   height: 100px;
   width: 100px;
   display: block;
-  background-image: url("../../../assets/icons/icon-arrow-down.svg");
+  background-image: url("../../assets/icons/icon-arrow-down.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
