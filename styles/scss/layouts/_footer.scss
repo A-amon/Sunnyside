@@ -4,6 +4,9 @@
 	&__logo{
 		display: block;
 		text-align: center;
+		svg{
+			height: 2rem;
+		}
 		path{
 			fill:$c-dark-desaturated-cyan;
 		}

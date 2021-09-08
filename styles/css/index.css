@@ -485,6 +485,7 @@ button {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  display: block;
 }
 
 @media screen and (min-width: 1020px) {
@@ -644,6 +645,10 @@ button {
 .footer__logo {
   display: block;
   text-align: center;
+}
+
+.footer__logo svg {
+  height: 2rem;
 }
 
 .footer__logo path {
