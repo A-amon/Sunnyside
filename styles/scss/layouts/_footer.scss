@@ -45,4 +45,8 @@
 			fill:$c-white;
 		}
 	}
+
+	@include tablet-query{
+		padding:4rem 0;
+	}
 }

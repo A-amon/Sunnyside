@@ -694,4 +694,10 @@ button {
 .footer__social:not(:last-child):hover path {
   fill: white;
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 4rem 0;
+  }
+}
 /*# sourceMappingURL=index.css.map */
