@@ -1,28 +1,27 @@
-
-.hero{
+.hero {
 	height: 600px;
-	background-image: url('../../assets/images/mobile/image-header.jpg');
+	background-image: url("../../assets/images/mobile/image-header.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: bottom;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	background-attachment: fixed;
 
-	.container::after{
-		content:"";
-		height:100px;
-		width:100px;
+	.container::after {
+		content: "";
+		height: 100px;
+		width: 100px;
 		display: block;
-		background-image:url('../../assets/icons/icon-arrow-down.svg');
+		background-image: url("../../assets/icons/icon-arrow-down.svg");
 		background-size: contain;
 		background-repeat: no-repeat;
 		background-position: center;
 		margin: auto;
-		animation:arrowBounce 0.7s infinite linear;
+		animation: arrowBounce 0.7s infinite linear;
 	}
 
-	&__title{
+	&__title {
 		width: 100%;
 		text-align: center;
 		font-family: $ff-fraunces;
@@ -33,26 +32,26 @@
 		margin-bottom: 2rem;
 	}
 
-	@include tablet-query{
-		background-image: url('../../assets/images/desktop/image-header.jpg');
+	@include tablet-query {
+		background-image: url("../../assets/images/desktop/image-header.jpg");
 
-		&__title{
+		&__title {
 			font-size: 4rem;
-			margin-bottom:4rem;
-			margin-top:-4rem;
+			margin-bottom: 4rem;
+			margin-top: -4rem;
 		}
 
-		&__hero .container::after{
+		&__hero .container::after {
 			margin-top: 5rem;
 		}
 	}
 }
 
-@keyframes arrowBounce{
-	from{
-		transform:translateY(-25px);
+@keyframes arrowBounce {
+	from {
+		transform: translateY(-25px);
 	}
-	to{
-		transform:translateY(0);
+	to {
+		transform: translateY(0);
 	}
 }
